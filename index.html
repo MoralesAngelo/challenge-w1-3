@@ -9,23 +9,38 @@
   </head>
 
   <body>
-    <header>
-      <h1>Lista de Compras</h1>
+    <section>
+      <header>
+        <h1>Lista de Compras</h1>
+        <nav>
+          <ul>
+            <li><a href="">Principal</a></li>
+            <li><a href="">Lista</a></li>
+            <li><a href="">Acerca de</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <section>
       <nav>
-        <ul>
-          <li><a href="">Principal</a></li>
-          <li><a href="">Lista</a></li>
-          <li><a href="">Acerca de</a></li>
-        </ul>
+        <a href="editarArticulo">+</a>
       </nav>
-    </header>
+      <p>2/3 Comprados</p>
+    </section>
+
     <div>
-      <input type="text" id="itemInput" placeholder="agregarElemento" />
-      <button id="agregarItem">agregar</button>
+      <ul>
+        <li>
+          <input type="checkbox" id="item1" /><label for="item1">Pan</label>
+        </li>
+        <li>
+          <input type="checkbox" id="item2" /><label for="item2">Leche</label>
+        </li>
+        <li>
+          <input type="checkbox" id="item3" /><label for="item3">Arroz</label>
+        </li>
+      </ul>
     </div>
-
-    <ul id="listacompras"></ul>
-
-    <button id="clearList">LIMPIAR LISTA</button>
   </body>
 </html>
