@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Lista de tareas" />
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
     <title>Lista Tareas</title>
   </head>
 
   <body>
     <header>
-      <h1>Lista de Compras</h1>
+      <p>Lista de Compra</p>
       <nav>
         <ul>
           <li><a href="">Principal</a></li>
@@ -19,13 +20,33 @@
         </ul>
       </nav>
     </header>
-    <div>
-      <input type="text" id="itemInput" placeholder="agregarElemento" />
-      <button id="agregarItem">agregar</button>
-    </div>
 
-    <ul id="listacompras"></ul>
+    <section>
+      <nav>
+        <a href="editarArticulo"><img src="agregar.svg" alt="editar" /></a>
+        <p>2/3 Comprados</p>
+      </nav>
+    </section>
 
-    <button id="clearList">LIMPIAR LISTA</button>
+    <section>
+      <div>
+        <ul>
+          <li>
+            <input type="checkbox" /><label>Pan</label>
+            <p>2.5$</p>
+          </li>
+
+          <li><input type="checkbox" /><label>Leche</label></li>
+          <p>4$</p>
+          <li><input type="checkbox" /><label>Arroz</label></li>
+          <p>3$</p>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <section>
+        <p>logo</p>
+      </section>
+    </footer>
   </body>
 </html>
