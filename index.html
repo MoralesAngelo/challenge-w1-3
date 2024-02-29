@@ -5,42 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Lista de tareas" />
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
     <title>Lista Tareas</title>
   </head>
 
   <body>
-    <section>
-      <header>
-        <h1>Lista de Compras</h1>
-        <nav>
-          <ul>
-            <li><a href="">Principal</a></li>
-            <li><a href="">Lista</a></li>
-            <li><a href="">Acerca de</a></li>
-          </ul>
-        </nav>
-      </header>
-    </section>
+    <header>
+      <p>Lista de Compra</p>
+      <nav>
+        <ul>
+          <li><a href="">Principal</a></li>
+          <li><a href="">Lista</a></li>
+          <li><a href="">Acerca de</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <section>
       <nav>
-        <a href="editarArticulo">+</a>
+        <a href="editarArticulo"><img src="agregar.svg" alt="editar" /></a>
+        <p>2/3 Comprados</p>
       </nav>
-      <p>2/3 Comprados</p>
     </section>
 
-    <div>
-      <ul>
-        <li>
-          <input type="checkbox" id="item1" /><label for="item1">Pan</label>
-        </li>
-        <li>
-          <input type="checkbox" id="item2" /><label for="item2">Leche</label>
-        </li>
-        <li>
-          <input type="checkbox" id="item3" /><label for="item3">Arroz</label>
-        </li>
-      </ul>
-    </div>
+    <section>
+      <div>
+        <ul>
+          <li>
+            <input type="checkbox" /><label>Pan</label>
+            <p>2.5$</p>
+          </li>
+
+          <li><input type="checkbox" /><label>Leche</label></li>
+          <p>4$</p>
+          <li><input type="checkbox" /><label>Arroz</label></li>
+          <p>3$</p>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <section>
+        <p>logo</p>
+      </section>
+    </footer>
   </body>
 </html>
